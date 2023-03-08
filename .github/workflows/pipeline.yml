@@ -15,3 +15,8 @@ jobs:
     steps:
       - name: Secret
         run: echo ${{secrets.HANS}}
+  do-run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: RunHello
+        run: ./ run.sh
