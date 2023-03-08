@@ -19,4 +19,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: RunHello
-        run: ./ run.sh
+        run: ./run.sh
