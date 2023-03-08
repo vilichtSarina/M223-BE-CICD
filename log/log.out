@@ -1,0 +1,315 @@
+[2023-03-01T14:03:19.019Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.4.Final
+[2023-03-01T14:03:19.019Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoApplication using Java 18.0.2 on DESKTOP-4JJB8NC with PID 3148 (D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus\build\classes\java\main started by seile in D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus)
+[2023-03-01T14:03:19.019Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-03-01T14:03:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-03-01T14:03:19.019Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 49 ms. Found 4 JPA repository interfaces.
+[2023-03-01T14:03:20.020Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-03-01T14:03:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:03:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-03-01T14:03:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2023-03-01T14:03:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-03-01T14:03:20.020Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 999 ms
+[2023-03-01T14:03:20.020Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-03-01T14:03:20.020Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.10.Final
+[2023-03-01T14:03:20.020Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-03-01T14:03:20.020Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-03-01T14:03:20.020Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-03-01T14:03:20.020Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-03-01T14:03:21.021Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-03-01T14:03:21.021Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-03-01T14:03:21.021Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [55] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46c2189e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3462e99a, org.springframework.security.web.context.SecurityContextPersistenceFilter@67b09e34, org.springframework.security.web.header.HeaderWriterFilter@2c451c4a, org.springframework.web.filter.CorsFilter@5300694d, org.springframework.security.web.authentication.logout.LogoutFilter@2682cccc, com.example.demo.core.security.JWTAuthenticationFilter@7320750c, com.example.demo.core.security.JWTAuthorizationFilter@2570851e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@271a140c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@531bec12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67d8613, org.springframework.security.web.session.SessionManagementFilter@73ff7a54, org.springframework.security.web.access.ExceptionTranslationFilter@240df292, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61607ff0]
+[2023-03-01T14:03:21.021Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-03-01T14:03:22.022Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:03:22.022Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-03-01T14:03:22.022Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoApplication in 3.273 seconds (JVM running for 3.571)
+[2023-03-01T14:04:16.016Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-7] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-03-01T14:04:16.016Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-7] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-03-01T14:04:16.016Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-7] [547] [INFO ] Completed initialization in 0 ms
+[2023-03-01T14:04:30.030Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.4.Final
+[2023-03-01T14:04:30.030Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoApplication using Java 18.0.2 on DESKTOP-4JJB8NC with PID 15256 (D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus\build\classes\java\main started by seile in D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus)
+[2023-03-01T14:04:30.030Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-03-01T14:04:31.031Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-03-01T14:04:31.031Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+[2023-03-01T14:04:31.031Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-03-01T14:04:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:04:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-03-01T14:04:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2023-03-01T14:04:31.031Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-03-01T14:04:31.031Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 937 ms
+[2023-03-01T14:04:31.031Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-03-01T14:04:31.031Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.10.Final
+[2023-03-01T14:04:32.032Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-03-01T14:04:32.032Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-03-01T14:04:32.032Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-03-01T14:04:32.032Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-03-01T14:04:32.032Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-03-01T14:04:32.032Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-03-01T14:04:33.033Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [55] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32245b66, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19355a56, org.springframework.security.web.context.SecurityContextPersistenceFilter@665f88e1, org.springframework.security.web.header.HeaderWriterFilter@1fa29b9e, org.springframework.web.filter.CorsFilter@1ff23bd1, org.springframework.security.web.authentication.logout.LogoutFilter@5b3ee43e, com.example.demo.core.security.JWTAuthenticationFilter@62f305bc, com.example.demo.core.security.JWTAuthorizationFilter@729c8def, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ee200ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25ee3caa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41c88e00, org.springframework.security.web.session.SessionManagementFilter@2f29e630, org.springframework.security.web.access.ExceptionTranslationFilter@4fe9a396, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2570851e]
+[2023-03-01T14:04:33.033Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-03-01T14:04:33.033Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:04:33.033Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-03-01T14:04:33.033Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoApplication in 3.034 seconds (JVM running for 3.319)
+[2023-03-01T14:05:44.044Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-3] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-03-01T14:05:44.044Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-3] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-03-01T14:05:44.044Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-3] [547] [INFO ] Completed initialization in 1 ms
+[2023-03-01T14:07:17.017Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.4.Final
+[2023-03-01T14:07:17.017Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoApplication using Java 18.0.2 on DESKTOP-4JJB8NC with PID 10780 (D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus\build\classes\java\main started by seile in D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus)
+[2023-03-01T14:07:17.017Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-03-01T14:07:18.018Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-03-01T14:07:18.018Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+[2023-03-01T14:07:18.018Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-03-01T14:07:18.018Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:07:18.018Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-03-01T14:07:18.018Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2023-03-01T14:07:18.018Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-03-01T14:07:18.018Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 1106 ms
+[2023-03-01T14:07:18.018Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-03-01T14:07:18.018Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.10.Final
+[2023-03-01T14:07:19.019Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-03-01T14:07:19.019Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-03-01T14:07:19.019Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-03-01T14:07:19.019Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-03-01T14:07:19.019Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-03-01T14:07:19.019Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-03-01T14:07:20.020Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [55] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@32245b66, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19355a56, org.springframework.security.web.context.SecurityContextPersistenceFilter@665f88e1, org.springframework.security.web.header.HeaderWriterFilter@1fa29b9e, org.springframework.web.filter.CorsFilter@1ff23bd1, org.springframework.security.web.authentication.logout.LogoutFilter@5b3ee43e, com.example.demo.core.security.JWTAuthenticationFilter@62f305bc, com.example.demo.core.security.JWTAuthorizationFilter@729c8def, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ee200ae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@25ee3caa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@41c88e00, org.springframework.security.web.session.SessionManagementFilter@2f29e630, org.springframework.security.web.access.ExceptionTranslationFilter@4fe9a396, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2570851e]
+[2023-03-01T14:07:20.020Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-03-01T14:07:20.020Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:07:20.020Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-03-01T14:07:20.020Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoApplication in 3.614 seconds (JVM running for 3.948)
+[2023-03-01T14:07:28.028Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-03-01T14:07:28.028Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-03-01T14:07:28.028Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2023-03-01T14:09:51.051Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [33] [INFO ] 201 CREATEDCreating ImagePost successful
+[2023-03-01T14:09:55.055Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [62] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:09:55.055Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [62] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:10:53.053Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [68] [INFO ] 200 OKImagePost with ID 1fee1752-3f62-49d9-967b-a914a717c814 getting updated
+[2023-03-01T14:10:53.053Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [69] [INFO ] com.example.demo.domain.imagepost.ImagePost@1dc32e9a
+[2023-03-01T14:12:35.035Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.4.Final
+[2023-03-01T14:12:35.035Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoApplication using Java 18.0.2 on DESKTOP-4JJB8NC with PID 18220 (D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus\build\classes\java\main started by seile in D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus)
+[2023-03-01T14:12:35.035Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-03-01T14:12:35.035Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-03-01T14:12:35.035Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 46 ms. Found 4 JPA repository interfaces.
+[2023-03-01T14:12:36.036Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-03-01T14:12:36.036Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:12:36.036Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-03-01T14:12:36.036Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2023-03-01T14:12:36.036Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-03-01T14:12:36.036Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 937 ms
+[2023-03-01T14:12:36.036Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-03-01T14:12:36.036Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.10.Final
+[2023-03-01T14:12:36.036Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-03-01T14:12:36.036Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-03-01T14:12:36.036Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-03-01T14:12:36.036Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-03-01T14:12:37.037Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-03-01T14:12:37.037Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-03-01T14:12:37.037Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [55] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46c2189e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3462e99a, org.springframework.security.web.context.SecurityContextPersistenceFilter@67b09e34, org.springframework.security.web.header.HeaderWriterFilter@2c451c4a, org.springframework.web.filter.CorsFilter@5300694d, org.springframework.security.web.authentication.logout.LogoutFilter@2682cccc, com.example.demo.core.security.JWTAuthenticationFilter@7320750c, com.example.demo.core.security.JWTAuthorizationFilter@2570851e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@271a140c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@531bec12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67d8613, org.springframework.security.web.session.SessionManagementFilter@73ff7a54, org.springframework.security.web.access.ExceptionTranslationFilter@240df292, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61607ff0]
+[2023-03-01T14:12:37.037Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-03-01T14:12:38.038Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:12:38.038Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-03-01T14:12:38.038Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoApplication in 3.186 seconds (JVM running for 3.467)
+[2023-03-01T14:12:57.057Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-8] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-03-01T14:12:57.057Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-8] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-03-01T14:12:57.057Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-8] [547] [INFO ] Completed initialization in 1 ms
+[2023-03-01T14:12:57.057Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [62] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:12:57.057Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [62] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:13:01.001Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [33] [INFO ] 201 CREATEDCreating ImagePost successful
+[2023-03-01T14:13:17.017Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [68] [INFO ] 200 OKImagePost with ID 5e40e7e2-f39a-407f-aac1-042d31c0247d getting updated
+[2023-03-01T14:13:17.017Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [69] [INFO ] dfdfdfdfdfdf
+[2023-03-01T14:13:46.046Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.4.Final
+[2023-03-01T14:13:46.046Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoApplication using Java 18.0.2 on DESKTOP-4JJB8NC with PID 21168 (D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus\build\classes\java\main started by seile in D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus)
+[2023-03-01T14:13:46.046Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-03-01T14:13:46.046Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-03-01T14:13:46.046Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 47 ms. Found 4 JPA repository interfaces.
+[2023-03-01T14:13:47.047Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-03-01T14:13:47.047Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:13:47.047Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-03-01T14:13:47.047Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2023-03-01T14:13:47.047Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-03-01T14:13:47.047Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 936 ms
+[2023-03-01T14:13:47.047Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-03-01T14:13:47.047Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.10.Final
+[2023-03-01T14:13:47.047Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-03-01T14:13:47.047Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-03-01T14:13:47.047Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-03-01T14:13:47.047Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-03-01T14:13:48.048Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-03-01T14:13:48.048Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-03-01T14:13:48.048Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [55] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e4d93f7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3d1b43d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@337c0ee4, org.springframework.security.web.header.HeaderWriterFilter@333efb51, org.springframework.web.filter.CorsFilter@9f52eb7, org.springframework.security.web.authentication.logout.LogoutFilter@62159fd, com.example.demo.core.security.JWTAuthenticationFilter@46c2189e, com.example.demo.core.security.JWTAuthorizationFilter@3462e99a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f95654c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@271a140c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5300694d, org.springframework.security.web.session.SessionManagementFilter@38ad86b1, org.springframework.security.web.access.ExceptionTranslationFilter@13e0f380, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7b6854b5]
+[2023-03-01T14:13:48.048Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-03-01T14:13:49.049Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:13:49.049Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-03-01T14:13:49.049Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoApplication in 3.066 seconds (JVM running for 3.356)
+[2023-03-01T14:14:03.003Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-1] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-03-01T14:14:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-03-01T14:14:03.003Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-1] [547] [INFO ] Completed initialization in 1 ms
+[2023-03-01T14:14:03.003Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [33] [INFO ] 201 CREATEDCreating ImagePost successful
+[2023-03-01T14:15:11.011Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [68] [INFO ] 200 OKImagePost with ID 04cc368d-712e-44d5-907c-299ddf61d26a getting updated
+[2023-03-01T14:15:11.011Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [69] [INFO ] 84654809-3b32-42da-bdde-b2e8a41b7601
+[2023-03-01T14:15:43.043Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [68] [INFO ] 200 OKImagePost with ID 04cc368d-712e-44d5-907c-299ddf61d26a getting updated
+[2023-03-01T14:15:43.043Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [69] [INFO ] 04cc368d-712e-44d5-907c-299ddf61d26a
+[2023-03-01T14:16:01.001Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [68] [INFO ] 200 OKImagePost with ID 04cc368d-712e-44d5-907c-299ddf61d26a getting updated
+[2023-03-01T14:16:01.001Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [69] [INFO ] null
+[2023-03-01T14:20:02.002Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.4.Final
+[2023-03-01T14:20:02.002Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoApplication using Java 18.0.2 on DESKTOP-4JJB8NC with PID 21268 (D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus\build\classes\java\main started by seile in D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus)
+[2023-03-01T14:20:02.002Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-03-01T14:20:02.002Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-03-01T14:20:02.002Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 41 ms. Found 4 JPA repository interfaces.
+[2023-03-01T14:20:03.003Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-03-01T14:20:03.003Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:20:03.003Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-03-01T14:20:03.003Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2023-03-01T14:20:03.003Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-03-01T14:20:03.003Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 969 ms
+[2023-03-01T14:20:03.003Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-03-01T14:20:03.003Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.10.Final
+[2023-03-01T14:20:03.003Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-03-01T14:20:03.003Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-03-01T14:20:03.003Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-03-01T14:20:03.003Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-03-01T14:20:04.004Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-03-01T14:20:04.004Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-03-01T14:20:04.004Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [55] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3462e99a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5300694d, org.springframework.security.web.context.SecurityContextPersistenceFilter@74c23525, org.springframework.security.web.header.HeaderWriterFilter@375ff309, org.springframework.web.filter.CorsFilter@7320750c, org.springframework.security.web.authentication.logout.LogoutFilter@2ae08750, com.example.demo.core.security.JWTAuthenticationFilter@2570851e, com.example.demo.core.security.JWTAuthorizationFilter@67d8613, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@531bec12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24563809, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5667dd90, org.springframework.security.web.session.SessionManagementFilter@67b09e34, org.springframework.security.web.access.ExceptionTranslationFilter@38ad86b1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58945295]
+[2023-03-01T14:20:04.004Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-03-01T14:20:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:20:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-03-01T14:20:05.005Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoApplication in 3.173 seconds (JVM running for 3.488)
+[2023-03-01T14:33:04.004Z] [org.hibernate.validator.internal.util.Version] [background-preinit] [21] [INFO ] HV000001: Hibernate Validator 6.2.4.Final
+[2023-03-01T14:33:04.004Z] [org.springframework.boot.StartupInfoLogger] [main] [55] [INFO ] Starting DemoApplication using Java 18.0.2 on DESKTOP-4JJB8NC with PID 19312 (D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus\build\classes\java\main started by seile in D:\Work\M223(NY)\M223_Backend-YaSei-StLau-SaLus)
+[2023-03-01T14:33:04.004Z] [org.springframework.boot.SpringApplication] [main] [634] [INFO ] No active profile set, falling back to 1 default profile: "default"
+[2023-03-01T14:33:04.004Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [132] [INFO ] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2023-03-01T14:33:04.004Z] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [main] [201] [INFO ] Finished Spring Data repository scanning in 50 ms. Found 4 JPA repository interfaces.
+[2023-03-01T14:33:05.005Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [108] [INFO ] Tomcat initialized with port(s): 8080 (http)
+[2023-03-01T14:33:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:33:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting service [Tomcat]
+[2023-03-01T14:33:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting Servlet engine: [Apache Tomcat/9.0.65]
+[2023-03-01T14:33:05.005Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Initializing Spring embedded WebApplicationContext
+[2023-03-01T14:33:05.005Z] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [main] [292] [INFO ] Root WebApplicationContext: initialization completed in 1066 ms
+[2023-03-01T14:33:05.005Z] [org.hibernate.jpa.internal.util.LogHelper] [main] [31] [INFO ] HHH000204: Processing PersistenceUnitInfo [name: default]
+[2023-03-01T14:33:05.005Z] [org.hibernate.Version] [main] [44] [INFO ] HHH000412: Hibernate ORM core version 5.6.10.Final
+[2023-03-01T14:33:05.005Z] [org.hibernate.annotations.common.reflection.java.JavaReflectionManager] [main] [56] [INFO ] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2023-03-01T14:33:05.005Z] [com.zaxxer.hikari.HikariDataSource] [main] [110] [INFO ] HikariPool-1 - Starting...
+[2023-03-01T14:33:05.005Z] [com.zaxxer.hikari.HikariDataSource] [main] [123] [INFO ] HikariPool-1 - Start completed.
+[2023-03-01T14:33:05.005Z] [org.hibernate.dialect.Dialect] [main] [175] [INFO ] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+[2023-03-01T14:33:06.006Z] [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [main] [52] [INFO ] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2023-03-01T14:33:06.006Z] [org.springframework.orm.jpa.AbstractEntityManagerFactoryBean] [main] [437] [INFO ] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2023-03-01T14:33:06.006Z] [org.springframework.security.web.DefaultSecurityFilterChain] [main] [55] [INFO ] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@41c88e00, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4fea095b, org.springframework.security.web.context.SecurityContextPersistenceFilter@2f29e630, org.springframework.security.web.header.HeaderWriterFilter@9976b27, org.springframework.web.filter.CorsFilter@354e2bff, org.springframework.security.web.authentication.logout.LogoutFilter@ea0c99c, com.example.demo.core.security.JWTAuthenticationFilter@232b3b4c, com.example.demo.core.security.JWTAuthorizationFilter@261609a7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3bf40c74, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@665f88e1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39296cef, org.springframework.security.web.session.SessionManagementFilter@462b239f, org.springframework.security.web.access.ExceptionTranslationFilter@7ade62a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3462e99a]
+[2023-03-01T14:33:06.006Z] [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [main] [219] [WARN ] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2023-03-01T14:33:07.007Z] [org.apache.juli.logging.DirectJDKLog] [main] [173] [INFO ] Starting ProtocolHandler ["http-nio-8080"]
+[2023-03-01T14:33:07.007Z] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [main] [220] [INFO ] Tomcat started on port(s): 8080 (http) with context path ''
+[2023-03-01T14:33:07.007Z] [org.springframework.boot.StartupInfoLogger] [main] [61] [INFO ] Started DemoApplication in 3.275 seconds (JVM running for 3.553)
+[2023-03-01T14:33:13.013Z] [org.apache.juli.logging.DirectJDKLog] [http-nio-8080-exec-2] [173] [INFO ] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-03-01T14:33:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [525] [INFO ] Initializing Servlet 'dispatcherServlet'
+[2023-03-01T14:33:13.013Z] [org.springframework.web.servlet.FrameworkServlet] [http-nio-8080-exec-2] [547] [INFO ] Completed initialization in 0 ms
+[2023-03-01T14:33:13.013Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:33:13.013Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:33:17.017Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [34] [INFO ] 201 CREATEDCreating ImagePost successful
+[2023-03-01T14:33:36.036Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T14:34:06.006Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-4] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T14:35:05.005Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T14:35:12.012Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:35:12.012Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:35:29.029Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T14:35:34.034Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T14:35:53.053Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T14:37:17.017Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:37:17.017Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:37:23.023Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T14:37:29.029Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-4] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:37:29.029Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:40:58.058Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:40:58.058Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:41:35.035Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-4] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:41:35.035Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-4] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:41:39.039Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T14:44:56.056Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:44:56.056Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:45:58.058Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:45:59.059Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:46:02.002Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:46:23.023Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:46:23.023Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:46:30.030Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [34] [INFO ] 201 CREATEDCreating ImagePost successful
+[2023-03-01T14:46:35.035Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [71] [INFO ] 200 OKImagePost with ID 9288b411-0b9f-4813-a9d3-ebcf9a1e6099 getting updated
+[2023-03-01T14:46:42.042Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [71] [INFO ] 200 OKImagePost with ID 9288b411-0b9f-4813-a9d3-ebcf9a1e6099 getting updated
+[2023-03-01T14:47:21.021Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:47:21.021Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:47:24.024Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:47:24.024Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:47:39.039Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [71] [INFO ] 200 OKImagePost with ID 9288b411-0b9f-4813-a9d3-ebcf9a1e6099 getting updated
+[2023-03-01T14:47:44.044Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:47:44.044Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:50:27.027Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [71] [INFO ] 200 OKImagePost with ID 9288b411-0b9f-4813-a9d3-ebcf9a1e6099 getting updated
+[2023-03-01T14:50:32.032Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:50:32.032Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:51:11.011Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:51:11.011Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:51:16.016Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [71] [INFO ] 200 OKImagePost with ID 9288b411-0b9f-4813-a9d3-ebcf9a1e6099 getting updated
+[2023-03-01T14:51:50.050Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:51:50.050Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:51:54.054Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T14:53:05.005Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:53:05.005Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:54:04.004Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:54:04.004Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:54:09.009Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [71] [INFO ] 200 OKImagePost with ID 9288b411-0b9f-4813-a9d3-ebcf9a1e6099 getting updated
+[2023-03-01T14:54:13.013Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:54:13.013Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:56:45.045Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:56:45.045Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:56:51.051Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [71] [INFO ] 200 OKImagePost with ID 9288b411-0b9f-4813-a9d3-ebcf9a1e6099 getting updated
+[2023-03-01T14:57:12.012Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [71] [INFO ] 200 OKImagePost with ID 9288b411-0b9f-4813-a9d3-ebcf9a1e6099 getting updated
+[2023-03-01T14:58:56.056Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:58:56.056Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:58:57.057Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T14:58:57.057Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T15:02:00.000Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T15:02:44.044Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T15:02:49.049Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T15:02:49.049Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T15:02:50.050Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T15:02:50.050Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T15:02:50.050Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T15:03:00.000Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [71] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T15:27:13.013Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m37s369ms825µs800ns).
+[2023-03-01T15:33:25.025Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T15:33:25.025Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T15:41:50.050Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T15:41:50.050Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T16:14:37.037Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T16:14:37.037Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T16:14:50.050Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-3] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T16:14:50.050Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T16:14:56.056Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T16:14:56.056Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T16:15:12.012Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:15:12.012Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:15:12.012Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:18:04.004Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-8] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:18:04.004Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:18:04.004Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:18:04.004Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:34.034Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:34.034Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-4] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:35.035Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:47.047Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:47.047Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:47.047Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:47.047Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:52.052Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:52.052Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:53.053Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:21:53.053Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-4] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:23:15.015Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:23:15.015Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-10] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:23:15.015Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:23:15.015Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-4] [40] [INFO ] Getting all ImagePosts for author with ID 0d8fa44c-54fd-4cd0-ace9-2a7da57992de
+[2023-03-01T16:23:38.038Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-6] [79] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T16:23:38.038Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [79] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T16:23:39.039Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-1] [79] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T16:23:42.042Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-7] [79] [INFO ] 200 OKImagePost with ID 1d775e02-6f6f-40cc-bb34-679502a9e765 getting updated
+[2023-03-01T16:31:19.019Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m4s571ms116µs400ns).
+[2023-03-01T16:39:32.032Z] [com.zaxxer.hikari.pool.HikariPool$HouseKeeper] [HikariPool-1 housekeeper] [788] [WARN ] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m12s747ms579µs200ns).
+[2023-03-01T16:39:43.043Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-9] [79] [INFO ] 200 OKImagePost with ID 9288b411-0b9f-4813-a9d3-ebcf9a1e6099 getting updated
+[2023-03-01T16:39:56.056Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-5] [63] [INFO ] 200 OKGetting all ImagePosts
+[2023-03-01T16:39:56.056Z] [com.example.demo.domain.imagepost.ImagePostService] [http-nio-8080-exec-2] [63] [INFO ] 200 OKGetting all ImagePosts
