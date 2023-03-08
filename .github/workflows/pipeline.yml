@@ -33,3 +33,17 @@ jobs:
           password: ${{secrets.PASSWORD}}
           port: 22
           script: sh run.sh
+  build-app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: Set Upd JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: "18"
+          distribution: "adopt"
+
+      - name: build
+        run: grandlew --batch-mode main package
