@@ -44,11 +44,6 @@ jobs:
         with:
           java-version: "18"
           distribution: "temurin"
-      - uses: actions/cache@v3
-        with:
-          path: |
-            ~/.gradle/caches
-            ~/.gradle/wrapper
       - name: Grant execute permission
         run: chmod +x gradlew
       - name: Validate Gradle wrapper
