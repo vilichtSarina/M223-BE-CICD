@@ -1,0 +1,12 @@
+name: Deploy to prod.
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  say-hello:
+    runs-on:
+    steps:
+      - name: Greet
+        run: echo "Hello World"
