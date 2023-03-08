@@ -14,4 +14,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Secret
-        run: echo $HANS
+        run: echo ${{secrets.HANS}}
