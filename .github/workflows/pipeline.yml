@@ -32,5 +32,4 @@ jobs:
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
           port: 22
-          run: ./run.sh
-          shell: bash
+        run: bash run.sh
