@@ -6,7 +6,12 @@ on:
 
 jobs:
   say-hello:
-    runs-on:
+    runs-on: ubuntu-latest
     steps:
       - name: Greet
         run: echo "Hello World"
+  say-secret:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Secret
+        run: echo $HANS
