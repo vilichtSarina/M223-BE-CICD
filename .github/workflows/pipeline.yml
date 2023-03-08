@@ -67,4 +67,4 @@ jobs:
           password: ${{secrets.DOCKER_PASSWORD}}
       - uses: actions/checkout@v2
       - name: Build docker image
-        run: docker build --file Dockerfile --tag vilichtsarina/m223 && docker push vilichtsarina/m223
+        run: docker build --tag vilichtsarina/m223 && docker push vilichtsarina/m223
