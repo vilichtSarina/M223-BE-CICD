@@ -1,0 +1,5 @@
+FROM gradle:jdk18 AS build
+Copy --chown=gradle:gradle . /home/gradle/src
+WORKDIR /home/gradle/src
+RUN gradle --no-deamon bootJar
+
