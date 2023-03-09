@@ -5,16 +5,6 @@ on:
     branches: [main]
 
 jobs:
-  say-hello:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Greet
-        run: echo "Hello World"
-  say-secret:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Secret
-        run: echo ${{secrets.HANS}}
   do-run:
     runs-on: ubuntu-latest
     steps:
@@ -67,4 +57,4 @@ jobs:
           password: ${{secrets.DOCKER_PASSWORD}}
       - uses: actions/checkout@v2
       - name: Build docker image
-        run: docker build --tag vilichtsarina/m223 && docker push vilichtsarina/m223
+        run: docker build --tag vilichtsarina/m223:backend && docker push vilichtsarina/m223:backend
