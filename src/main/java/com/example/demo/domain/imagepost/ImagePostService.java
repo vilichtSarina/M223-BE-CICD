@@ -139,9 +139,9 @@ public class ImagePostService {
     }
 
     private boolean imageUrlAlreadyExistsForAuthor(ImagePost imagePost) {
-        List<ImagePost> imagePosts = imagePostRepository.findImagePostByImageUrl(imagePost);
+        List<ImagePost> imagePosts = imagePostRepository.findImagePostByImageUrl(imagePost.getImageUrl());
 
-        if (imagePosts.size() < 1) {
+        if (imagePosts.isEmpty()) {
             return false;
         }
         return imagePosts.get(0).getAuthor().equals(imagePost.getAuthor());
