@@ -145,13 +145,7 @@ public class ImagePostService {
     private boolean imageUrlAlreadyExistsForAuthor(ImagePost imagePost) {
         List<ImagePost> imagePosts = imagePostRepository.findImagePostByImageUrl(imagePost.getImageUrl());
 
-        log.warn("found " + imagePosts.size() + "with this image url");
 
-        if (imagePosts.isEmpty()) {
-            return false;
-        }
-        log.warn(imagePosts.get(0).getImageUrl());
-
-        return imagePosts.get(0).getAuthor().equals(userService.getCurrentlyLoggedInUser());
+        return !imagePosts.isEmpty();
     }
 }
