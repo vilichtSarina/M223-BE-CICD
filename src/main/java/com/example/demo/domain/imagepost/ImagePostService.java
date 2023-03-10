@@ -1,6 +1,7 @@
 package com.example.demo.domain.imagepost;
 
 import com.example.demo.domain.user.User;
+import com.example.demo.domain.user.UserRepository;
 import com.example.demo.domain.user.UserService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,15 +15,18 @@ import java.util.*;
 @Log4j2
 @Service
 public class ImagePostService {
+    private final UserRepository userRepository;
     private final ImagePostRepository imagePostRepository;
     private final UserService userService;
 
     private static final String DOES_NOT_EXIST = " is non-existent";
 
     @Autowired
-    public ImagePostService(ImagePostRepository imagePostRepository, UserService userService) {
+    public ImagePostService(ImagePostRepository imagePostRepository, UserService userService,
+                            UserRepository userRepository) {
         this.imagePostRepository = imagePostRepository;
         this.userService = userService;
+        this.userRepository = userRepository;
     }
 
     /**
@@ -147,6 +151,7 @@ public class ImagePostService {
             return false;
         }
         log.warn(imagePosts.get(0).getImageUrl());
-        return imagePosts.get(0).getAuthor().equals(imagePost.getAuthor());
+
+        return imagePosts.get(0).getAuthor().equals(userService.getCurrentlyLoggedInUser());
     }
 }
