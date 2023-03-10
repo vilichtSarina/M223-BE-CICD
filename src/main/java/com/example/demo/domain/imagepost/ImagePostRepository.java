@@ -10,4 +10,6 @@ import java.util.UUID;
 @Repository
 public interface ImagePostRepository extends JpaRepository<ImagePost, UUID> {
     List<ImagePost> findImagePostByAuthor(User author);
+
+    List<ImagePost> findImagePostByImageUrl(ImagePost imagePost);
 }

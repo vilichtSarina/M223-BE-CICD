@@ -1,6 +1,6 @@
 --USERS
 insert into users (id, email, first_name, last_name, password)
-values ('ba804cb9-fa14-42a5-afaf-be488742fc54', 'admin@example.com', 'James', 'Bond', '$2a$10$U/FW.Fl/bhhiZo6YNwD46O5Fu1JzLDIK1H.Gcb/FNECotkW6Ev50a'),
+values ('ba804cb9-fa14-42a5-afaf-be488742fc54', 'admin@example.com', 'James', 'Bond', '$2a$10$OfCrXQroHi9sBZhXQUlr9.EiXxhYGAwdfPPSk86HhyS5.8QvmwPhu'),
        ('0d8fa44c-54fd-4cd0-ace9-2a7da57992de', 'user@example.com', 'Tyler', 'Durden', '$2a$10$U/FW.Fl/bhhiZo6YNwD46O5Fu1JzLDIK1H.Gcb/FNECotkW6Ev50a') ON CONFLICT DO NOTHING;
 
 

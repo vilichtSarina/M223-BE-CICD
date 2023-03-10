@@ -31,7 +31,7 @@ public class ImagePostService {
      * user as the author.
      */
     public ImagePost createImagePost(ImagePost imagePost) {
-        if (imagePost.getId() != null) {
+        if (imagePost.getId() != null || imageUrlAlreadyExistsForAuthor(imagePost)) {
             log.warn("Invalid request body given. ImagePost not created");
 
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Invalid request body given.");
@@ -136,5 +136,14 @@ public class ImagePostService {
                 HttpStatus.NOT_FOUND,
                 "Image Post with ID: " + imagePostId + DOES_NOT_EXIST
         ));
+    }
+
+    private boolean imageUrlAlreadyExistsForAuthor(ImagePost imagePost) {
+        List<ImagePost> imagePosts = imagePostRepository.findImagePostByImageUrl(imagePost);
+
+        if (imagePosts.size() < 1) {
+            return false;
+        }
+        return imagePosts.get(0).getAuthor().equals(imagePost.getAuthor());
     }
 }
