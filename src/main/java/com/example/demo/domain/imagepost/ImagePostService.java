@@ -142,10 +142,11 @@ public class ImagePostService {
         List<ImagePost> imagePosts = imagePostRepository.findImagePostByImageUrl(imagePost.getImageUrl());
 
         log.warn("found " + imagePosts.size() + "with this image url");
-        log.warn(imagePosts.get(0).getImageUrl());
+
         if (imagePosts.isEmpty()) {
             return false;
         }
+        log.warn(imagePosts.get(0).getImageUrl());
         return imagePosts.get(0).getAuthor().equals(imagePost.getAuthor());
     }
 }
